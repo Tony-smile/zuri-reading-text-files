@@ -59,9 +59,9 @@ def count_words():
             result[chunk] = 1 
 
             #print the result
-    for key, value in result.items():
-        print(f"{key} : {value}")
-
+    # for key, value in result.items():
+        # print(f"{key} : {value}")
+    print(result)
 #call the count_word function 
 count_words()
    # return {"as": 10, "would": 20}
