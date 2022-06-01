@@ -61,7 +61,7 @@ def count_words():
             #print the result
     # for key, value in result.items():
         # print(f"{key} : {value}")
-    print(result)
+    return result
 #call the count_word function 
-count_words()
+print(count_words())
    # return {"as": 10, "would": 20}
